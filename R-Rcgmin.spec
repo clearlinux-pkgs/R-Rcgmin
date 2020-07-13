@@ -4,7 +4,7 @@
 #
 Name     : R-Rcgmin
 Version  : 2013.2.21
-Release  : 17
+Release  : 18
 URL      : https://cran.r-project.org/src/contrib/Rcgmin_2013-2.21.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/Rcgmin_2013-2.21.tar.gz
 Summary  : Conjugate Gradient Minimization of Nonlinear Functions
