@@ -6,14 +6,30 @@ TODOS
    o    Eventually include different line searches, possibly in a
         separate routine
 
-2014-12-21 
+2022-04-30
+   o    Fix NOTEs generated in Linux checks for Rd files.
 
-   o    As per CRAN policies, edited DESCRIPTION and NAMESPACE file. 
-	Because there is no change to code, the date of the package 
-	advanced by only 1 day.
+2018-11-08
+   o    Thanks to Florian Schwendinger for noting that the condition
+          (f < min(fmin, f1)) 
+        can evaluate to NA if f evaluates to NaN. Changed to
+        isTRUE((f < min(fmin, f1)))). 
 
-   o    Removed require() from code. Not needed.
+2014-7-17
+   o    Changed default of control$checkgrad to FALSE. Changed error message
+	that mentions Rvmmin to Rcgmin.
 
+2013-9-24 
+   o    Warning that parameter moved to bound suppressed when start
+        is on the bound.
+
+2013-8-20
+
+   o    Allow quoted gradient names to bring in different gradient 
+        routines. Also to allow gradient approximation step to be
+	adjusted.
+
+   o    Dependency on optextras rather than numDeriv
 
 2013-2-20
 
