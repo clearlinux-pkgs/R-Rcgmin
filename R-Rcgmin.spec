@@ -4,7 +4,7 @@
 #
 Name     : R-Rcgmin
 Version  : 2022.4.30
-Release  : 35
+Release  : 36
 URL      : https://cran.r-project.org/src/contrib/Rcgmin_2022-4.30.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/Rcgmin_2022-4.30.tar.gz
 Summary  : Conjugate Gradient Minimization of Nonlinear Functions with Box
